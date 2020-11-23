@@ -1,95 +1,37 @@
 <html>
+    <head><meta name="viewport" content="width=device-width, initial-scale:1.0"><title>Playing Cards</title><link rel="icon" href="media/passp.jpg"/>
+    <style>
+        body{ margin: 50px; padding:50px; border: 3px solid red;}
+        @media screen and (min-width:320px) and (max-width:480px)  {
+     .k{display:flex; flex-direction: column; padding: 10px; background-color: chocolate; text-align: center; } 
+    .c{padding:10px; background-color: blue; width:100%; border: 3px solid yellow }
+    .c a{color:yellow; font-size:18px; text-decoration:none;}
+    img{border-radius: 15%; width:40%}
+    .c:hover{background-color: red; padding: 15px;box-shadow: 10px 10px 1px 1px;}  
+    .m{background-color: black; color: white; text-align:center}
+    .f{background-color: aqua; font: 20px; color: red}
+        }
+        @media screen and (min-width:480px)   {
+     .k{display:flex; flex-direction: row; padding: 10px; background-color: chocolate; text-align: center; } 
+    .c{padding:10px; background-color: blue;  border: 3px solid yellow; margin:30px }
+    .i1{border-radius: 15%; width:40%}
+    .c:hover{background-color: red; padding: 15px;box-shadow: 10px 10px 1px 1px;} 
+    .m{background-color: black; color: white; text-align:center} 
+    .f{display:flex;background-color: aqua; font-size: 20px; color: red}
+    .c a{color:yellow; font-size:18px; text-decoration:none;}
+    .fr{text-align: center; padding: 10px; margin:10px; }
+        }
 
-<head>
-<meta name="vieport" content="width=devie-width initial-scale=1.0">
-    <title>Profile List</title>
-<style>
-    @media screen and (min-width: 720px)
-    {
-   .pros td{border-bottom: 1px solid black}
-.psk{margin: 3px; font-size: 20px}
-.ba{display: flex; flex-direction:row; padding: 20px; border: 3px solid red}
-.ba-ch{border: 3px solid green;padding: 15px;margin:5px; width:30%}
-.ba-ch1{ border: 2px solid green; padding: 10px; margin:5px; width:100%}
-.edu td{border: 1px solid black; padding:10px;}
-.edu {border-collapse: collapse}
-.olim li{font-size:18px;padding: 4px;}
-}
-@media screen and (min-width: 100px) and (max-width:719px)
-{
-    .pros td{border-bottom: 1px solid black}
-    .psk{margin: 3px; font-size: 20px}
-.ba{display: flex; flex-direction:column; padding: 20px; border: 3px solid red}
-.ba-ch{border: 3px solid green;padding: 15px;margin:5px; }
-.ba-ch1{ border: 2px solid green; padding: 10px; margin:5px; }
-.edu td{border: 1px solid black; padding:10px;}
-.edu {border-collapse: collapse}
-}
-
-</style>    
-</head>
-<body style="background-color:aliceblue">
-    <div class="ba">
-        <!--Left Pane-->
-        <div class="ba-ch">
-            <div style="text-align: center;"><img src="media/passp1.jpg" style="border-radius: 30%; border: 3px solid blue " ></div>
-            <h1>Ganta Naveen Babu</h1>
-            <div style="font-size: 20px">Movie Actor Hero</div>
-            <h3>Professional Skills</h3>
-        <table class="pros" style="border-collapse: collapse; border: 1px solid blue; width:100%">
-            <tr><td>Fight</td><td style="text-align:right; padding: 5px" ><span style=" background-color:green; color:yellow; padding: 2px; border-radius: 20% ">Beginner</span></td></tr>
-            <tr><td>Mass</td><td style="text-align:right; padding: 5px" ><span style=" background-color:green; color:yellow; padding: 2px; border-radius: 20% ">Beginner</span></td></tr>
-            <tr><td>Dance</td><td style="text-align:right; padding: 5px" ><span style=" background-color:green;color:yellow; padding: 2px; border-radius: 20% ">Beginner</span></td></tr>
-            <tr><td>Emotions</td><td style="text-align:right; padding: 5px" ><span style=" background-color:blue;color:yellow; padding: 2px; border-radius: 20% ">Professional</span></td></tr>
-            <tr><td>Comedy</td><td style="text-align:right; padding: 5px" ><span style=" background-color:blue;color:yellow; padding: 2px; border-radius: 20% ">Professional</span></td></tr>
-        </table>
-        <h4>Personal Skills</h4>
-        <ul>
-            <li class="psk">Hard working</li>
-            <li class="psk">Out of Box thinking</li>
-            <li class="psk">Simplicity</li>
-            <li class="psk">Adaptability</li>
-            <li class="psk">Self Learning</li>    
-        </ul>
-    
+    </style>
+    </head>
+    <body>
+        
+        <div class="k">
+        <div class="c"><img class="i1" src="media/passp1.jpg"><hr><h2>Ganta Naveen Babu</h2><h3>naniganta@gmail.com</h3><a href="https://thurlapati4.github.io/Tasks/Task1/Nani.html" >View Resume</a></div>
+        <div class="c"><img class="i1" src="media/passp2.jpg"><hr><h2>Karthik Sivakumar </h2><h3>karthiksiva@gmail.com</h3><a href="https://thurlapati4.github.io/Tasks/Task1/Karthik.html">View Resume</a> </div>
+        
         </div>
-        <!--Right Pane-->
-        <div class="ba-ch1">
-            <div><h2>Career Objective</h2>
-            <p style="font-size: 24px">To adapt myslf to newer trends ever emerging in movie industry and mould my behaviour and skills accordingly. Coming up with different movies along with diverse roles. Always find a way to work with upcoming directors for fresh content. Striving hard to expand my fan base beyond telugu Language</p></div>
-            <div><h2>Education:</h2>
-                <table class="edu">
-                <tr><td>sno</td><td>Institute/Organization/School/College</td><td>Qualification</td><td>CGPA/PER</td><td>Duration</td></tr>
-                <tr><td>1</td><td>St. Alphonso High School</td><td>S.S.C.</td><td>88.88</td><td>1 year</td></tr>
-                <tr><td>2</td><td>Narayana Junior College, B.R.Nagar</td><td>Intermediate</td><td>88.88</td><td>2 years</td></tr>
-                <tr><td>3</td><td>Wesley College</td><td>B.Sc.</td><td>6.5</td><td>3 years</td></tr>
-                
-            </table>
-            
-            </div>
-            <br>
-            <div><h2>Projects:</h2>
-            
-                <ol class="olim">
-                    <li>AstaChamma</li>
-                    <li>Bhimli Kabaddi Jattu</li>
-                    <li>Pilla Jamindar</li>
-                    <li>Nenu Local</li>
-                    <li>V</li>
-                </ol>
-            </div>
-            <br>
-            <div><h2>Contact Details:</h2>
-                <table style="width: 100%; font-size:20px;">
-                    <tr><td>Contact:</td><td> +7985656565  </td><td>Wikipedia Link: <a href="https://en.wikipedia.org/nani(actor)">Nani</a></td></tr>
-                    <tr><td>Email:</td><td>nani@gmail.com</td><td></td></tr>
-                    <tr><td>Address:</td><td></td></tr>
-                    <tr><td>Leela Nagar</td><td></td></tr>
-                    <tr><td>Ameerpet</td><td></td></tr> 
-                    <tr><td>Hyderabad</td><td></td></tr>     
-                </table>
-            </div>
-        </div>  
-    </div>
+        <div class="m">The content in this website is licensed under CCC Attribution 4.0 license</div>
+        
     </body>
-</html>
+    </html>
