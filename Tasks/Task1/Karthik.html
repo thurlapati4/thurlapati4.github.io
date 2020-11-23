@@ -17,6 +17,7 @@
 }
 @media screen and (min-width: 100px) and (max-width:719px)
 {
+    .prs{width: 100%; overflow: scroll}
     .pros td{border-bottom: 1px solid black}
     .psk{margin: 3px; font-size: 20px}
 .ba{display: flex; flex-direction:column; padding: 20px; border: 3px solid red}
@@ -29,6 +30,7 @@
 </style>    
 </head>
 <body style="background-color:aliceblue">
+    <a href="https://thurlapati4.github.io/Tasks/Task1/index.html" style="position:fixed; color:maroon;z-index:1; background-color: yellow; font-size:20px; text-decoration:none">Back</a>
     <div class="ba">
         <!--Left Pane-->
         <div class="ba-ch">
@@ -36,13 +38,15 @@
             <h1>Karthik Sivakumar</h1>
             <div style="font-size: 20px">Movie Actor Hero</div>
             <h3>Professional Skills</h3>
-        <table class="pros" style="border-collapse: collapse; border: 1px solid blue; width:100%">
+        
+            <table class="pros" style="border-collapse: collapse; border: 1px solid blue; width:100%">
             <tr><td>Fight</td><td style="text-align:right; padding: 5px" ><span style=" background-color:blue; color:yellow; padding: 2px; border-radius: 20% ">Professional</span></td></tr>
             <tr><td>Mass</td><td style="text-align:right; padding: 5px" ><span style=" background-color:blue; color:yellow; padding: 2px; border-radius: 20% ">Professional</span></td></tr>
             <tr><td>Dance</td><td style="text-align:right; padding: 5px" ><span style=" background-color:green;color:yellow; padding: 2px; border-radius: 20% ">Beginner</span></td></tr>
             <tr><td>Emotions</td><td style="text-align:right; padding: 5px" ><span style=" background-color:blue;color:yellow; padding: 2px; border-radius: 20% ">Professional</span></td></tr>
             <tr><td>Comedy</td><td style="text-align:right; padding: 5px" ><span style=" background-color:green;color:yellow; padding: 2px; border-radius: 20% ">Beginner</span></td></tr>
         </table>
+        
         <h4>Personal Skills</h4>
         <ul>
             <li class="psk">Hard working</li>
@@ -57,7 +61,7 @@
         <div class="ba-ch1">
             <div><h2>Career Objective</h2>
             <p style="font-size: 24px">To adapt myslf to newer trends ever emerging in movie industry and mould my behaviour and skills accordingly. Coming up with different movies along with diverse roles. Always find a way to work with upcoming directors for fresh content. Striving hard to expand my fan base beyond telugu Language</p></div>
-            <div><h2>Education:</h2>
+            <div class="prs"><h2>Education:</h2>
                 <table class="edu">
                 <tr><td>sno</td><td>Institute/Organization/School/College</td><td>Qualification</td><td>CGPA/PER</td><td>Duration</td></tr>
                 <tr><td>1</td><td>Padma Seshadri Bala Bhavan</td><td>S.S.C.</td><td>88.88</td><td>1 year</td></tr>
