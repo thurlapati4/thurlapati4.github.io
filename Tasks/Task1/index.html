@@ -6,32 +6,37 @@
 <style>
     @media screen and (min-width: 720px)
     {
-td{border-bottom: 1px solid black}
+   .pros td{border-bottom: 1px solid black}
 .psk{margin: 3px; font-size: 20px}
 .ba{display: flex; flex-direction:row; padding: 20px; border: 3px solid red}
 .ba-ch{border: 3px solid green;padding: 15px;margin:5px; width:30%}
 .ba-ch1{ border: 2px solid green; padding: 10px; margin:5px; width:100%}
+.edu td{border: 1px solid black; padding:10px;}
+.edu {border-collapse: collapse}
+.olim li{font-size:18px;padding: 4px;}
 }
 @media screen and (min-width: 100px) and (max-width:719px)
 {
+    .pros td{border-bottom: 1px solid black}
     .psk{margin: 3px; font-size: 20px}
 .ba{display: flex; flex-direction:column; padding: 20px; border: 3px solid red}
 .ba-ch{border: 3px solid green;padding: 15px;margin:5px; }
 .ba-ch1{ border: 2px solid green; padding: 10px; margin:5px; }
-
+.edu td{border: 1px solid black; padding:10px;}
+.edu {border-collapse: collapse}
 }
 
 </style>    
 </head>
-<body>
+<body style="background-color:aliceblue">
     <div class="ba">
         <!--Left Pane-->
         <div class="ba-ch">
-            <div style="text-align: center;"><img src="media/passp1.jpg" style="border-radius: 30%; " ></div>
+            <div style="text-align: center;"><img src="media/passp1.jpg" style="border-radius: 30%; border: 3px solid blue " ></div>
             <h1>Ganta Naveen Babu</h1>
             <div style="font-size: 20px">Movie Actor Hero</div>
             <h3>Professional Skills</h3>
-        <table style="border-collapse: collapse; border: 1px solid blue; width:100%">
+        <table class="pros" style="border-collapse: collapse; border: 1px solid blue; width:100%">
             <tr><td>Fight</td><td style="text-align:right; padding: 5px" ><span style=" background-color:green; color:yellow; padding: 2px; border-radius: 20% ">Beginner</span></td></tr>
             <tr><td>Mass</td><td style="text-align:right; padding: 5px" ><span style=" background-color:green; color:yellow; padding: 2px; border-radius: 20% ">Beginner</span></td></tr>
             <tr><td>Dance</td><td style="text-align:right; padding: 5px" ><span style=" background-color:green;color:yellow; padding: 2px; border-radius: 20% ">Beginner</span></td></tr>
@@ -50,9 +55,40 @@ td{border-bottom: 1px solid black}
         </div>
         <!--Right Pane-->
         <div class="ba-ch1">
-            <div><h2>Career Objective</h2></div>
-            <div><h2>Education:</h2></div>
-            <div><h2>Contact Details:</h2></div>
+            <div><h2>Career Objective</h2>
+            <p style="font-size: 24px">To adapt myslf to newer trends ever emerging in movie industry and mould my behaviour and skills accordingly. Coming up with different movies along with diverse roles. Always find a way to work with upcoming directors for fresh content. Striving hard to expand my fan base beyond telugu Language</p></div>
+            <div><h2>Education:</h2>
+                <table class="edu">
+                <tr><td>sno</td><td>Institute/Organization/School/College</td><td>Qualification</td><td>CGPA/PER</td><td>Duration</td></tr>
+                <tr><td>1</td><td>St. Alphonso High School</td><td>S.S.C.</td><td>88.88</td><td>1 year</td></tr>
+                <tr><td>2</td><td>Narayana Junior College, B.R.Nagar</td><td>Intermediate</td><td>88.88</td><td>2 years</td></tr>
+                <tr><td>3</td><td>Wesley College</td><td>B.Sc.</td><td>6.5</td><td>3 years</td></tr>
+                
+            </table>
+            
+            </div>
+            <br>
+            <div><h2>Projects:</h2>
+            
+                <ol class="olim">
+                    <li>AstaChamma</li>
+                    <li>Bhimli Kabaddi Jattu</li>
+                    <li>Pilla Jamindar</li>
+                    <li>Nenu Local</li>
+                    <li>V</li>
+                </ol>
+            </div>
+            <br>
+            <div><h2>Contact Details:</h2>
+                <table style="width: 100%; font-size:20px;">
+                    <tr><td>Contact:</td><td> +7985656565  </td><td>Wikipedia Link: <a href="https://en.wikipedia.org/nani(actor)">Nani</a></td></tr>
+                    <tr><td>Email:</td><td>nani@gmail.com</td><td></td></tr>
+                    <tr><td>Address:</td><td></td></tr>
+                    <tr><td>Leela Nagar</td><td></td></tr>
+                    <tr><td>Ameerpet</td><td></td></tr> 
+                    <tr><td>Hyderabad</td><td></td></tr>     
+                </table>
+            </div>
         </div>  
     </div>
     </body>
