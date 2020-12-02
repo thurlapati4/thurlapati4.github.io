@@ -36,7 +36,7 @@ function loadJSON(file, callback){
             addCard.style.align = "center";
             addCard.style.height = "100%";
             var CardImg = document.createElement("img");
-            CardImg.src=data.candidates[j].image;
+            CardImg.src="media/"+data.candidates[j].image;
             CardImg.style.width = "60%";
             CardImg.style.height = "30%";
             addCard.appendChild(CardImg);
@@ -118,7 +118,7 @@ function loadJSON(file, callback){
             var edata = JSON.parse(text);
             console.log(edata);
             var ResImg = document.createElement("img");
-            ResImg.src= edata.image;
+            ResImg.src="media/"+edata.image;
             ResImg.style.width = "60%";
             
             ResImg.style.margin = "10%";
