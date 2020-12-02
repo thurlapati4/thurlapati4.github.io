@@ -1,0 +1,10 @@
+{
+    "image":"engels.jpg","Full_Name":"Engels Ramaswamy", "Email":"ramaswamy@gmail.com", "Phone_No":"7176884523",
+    "Profession" : "Software Engineer",
+    "Prof_Skills": [{"skill":"HTML/CSS","level":"Beginner"},{"skill":"JavaScript","level":"Professional"},{"skill":"Jquery","level":"Intermediate"},{"skill":"ReactJs","level":"Professional"}],
+    "Person_Skills" : ["hard working","creative","self dependent","simplicity"],
+    "career_obj" : "In Modern times, change has become constant and more dynamic. In this current scenario my objective is to constructively build my career giving more priority for skill rather than position. To become an valuable asset for employer is my present motto.",
+    "projects" : ["Blogging site","Marketing site","eCommerce site","Content Delivery site"],
+    "education" : [{"institute":"St. Johns high School","qualify":"Matriculation","percent":"88.88","duration":"1 year"},{"institute":"Narayana Junior College","qualify":"Pre University Course","percent":"88.88","duration":"2 years"},{"institute":"Adithya Institute of Technology and Management","qualify":"under graduation","percent":"70","duration":"4 years"}],
+    "contact" : {"line1":"Dno: 15-22A","line2":"AsvaRaoPeta","line3":"Guntur"}
+}

@@ -1,0 +1,15 @@
+{
+    "count" : 10,
+    
+    "candidates": [{ "image":"sarangapani.jpg","Full_Name":"Panchabatla Sarangapani", "Email":"sarangapani@gmail.com", "Phone_No":"7476564523"},
+     { "image":"ramadasu.jpg","Full_Name":"Amalapuram Ramadasu", "Email":"ramadasu@yahoo.com", "Phone_No":"8176564523"},
+     { "image":"janardhan.jpg","Full_Name":"Medarametla Janardhan", "Email":"janardhan@gmail.com", "Phone_No":"9176564523"},
+     { "image":"kishore.jpg","Full_Name":"Garikapati Kishore Kumar", "Email":"kishorekumar@yahoo.com", "Phone_No":"7188864523"},
+     { "image":"lenin.jpg","Full_Name":"Suravaram Lenin Kumar", "Email":"leninkumar@outlook.com", "Phone_No":"7176564888"},
+     { "image":"engels.jpg","Full_Name":"Engels Ramaswamy", "Email":"ramaswamy@gmail.com", "Phone_No":"7176884523"},
+     { "image":"swamy.jpg","Full_Name":"Kankipati Swamy", "Email":"swamy@css.com", "Phone_No":"7888564523"},
+    { "image":"adimulam.jpg","Full_Name":"Adimulam Suresh", "Email":"suresh@gmail.com", "Phone_No":"7999564523"},
+     { "image":"karri.jpg","Full_Name":"Karri Dinesh", "Email":"dinesh@advancedandroid.com", "Phone_No":"6876564523"},
+     { "image":"masthan.jpg","Full_Name":"Masthan Vali", "Email":"masthanvali@android.com", "Phone_No":"7786564523"}
+    ]
+}

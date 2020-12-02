@@ -1,0 +1,20 @@
+{
+    "username" :"thurlapati4",
+    "age" : 23 ,
+    "FirstName" : "Thurlapati",
+    "Lastname" : "Sai Krishna Koushik",
+    "Domain" : ["Chemical Analysis","Chemical Process Analysis","Process Equipment Design","Web Development","Android Development","General Programming"],
+    "skills" : [
+        {"Web Development" : ["HTML5","CSS3","JavaScript","jQuery","Bootstrap","ReactJs","SQL","PHP","MariaDB"]},
+        {"Android Development" : ["Java SE","Android Studio","FireBase","AndroidX library"]},
+        {"Chemical Analysis" : ["ph measurement","potentiometer","Refractometer"]},
+        {"Chemical Process Analysis" : ["Mass Balance","Energy Balance","Process Economics"]},
+        {"Process Equipment Design" : ["Shell and Tube Heat Exchanger","Constant Volume Batch Reactor","Gas Absorbing Column"]}
+],
+    "Education" : {
+        "matriculation" : { "Board": "BSEAP", "Year" : 2014, "Percentage/CGPA" : 9.7 },
+        "Pre_University_Course" : { "Board": "BIEAP", "Year" : 2016, "Percentage/CGPA" : 96.3, "Stream" : "MPC" },
+        "Under_Graduation" : { "Univerdity": "SVUCE", "Year" : 2020, "Percentage/CGPA" : 7.48, "Stream":"Chemical Engineer" }
+    }
+
+}

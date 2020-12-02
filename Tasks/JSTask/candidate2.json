@@ -1,0 +1,10 @@
+{
+     "image":"ramadasu.jpg","Full_Name":"Amalapuram Ramadasu", "Email":"ramadasu@yahoo.com", "Phone_No":"8176564523",
+    "Profession" : "Software Engineer",
+    "Prof_Skills": [{"skill":"HTML/CSS","level":"beginner"},{"skill":"JavaScript","level":"intermediate"},{"skill":"Jquery","level":"Professional"},{"skill":"ReactJs","level":"Professional"}],
+    "Person_Skills" : ["hard working","creative","self dependent","simplicity"],
+    "career_obj" : "In Modern times, change has become constant and more dynamic. In this current scenario my objective is to constructively build my career giving more priority for skill rather than position. To become an valuable asset for employer is my present motto.",
+    "projects" : ["Blogging site","Marketing site","eCommerce site","Content Delivery site"],
+    "education" : [{"institute":"St. Johns high School","qualify":"Matriculation","percent":"88.88","duration":"1 year"},{"institute":"Narayana Junior College","qualify":"Pre University Course","percent":"88.88","duration":"2 years"},{"institute":"Adithya Institute of Technology and Management","qualify":"under graduation","percent":"70","duration":"4 years"}],
+    "contact" : {"line1":"Dno: 13-15A","line2":"KeasvaRoa peta","line3":"Warangal"}
+}
