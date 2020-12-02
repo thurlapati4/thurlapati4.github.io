@@ -29,19 +29,21 @@ function loadJSON(file, callback){
         displ_ele.style.marginRight = "10%";
         displ_ele.style.display="grid";
         displ_ele.style.gridTemplateColumns="auto auto auto";
+        displ_ele.style.gridGap="8px";
         for(j=0;j<i;j++)
         {
             var addCard = document.createElement("div");
             addCard.style.align = "center";
+            addCard.style.height = "100%";
             var CardImg = document.createElement("img");
             CardImg.src=data.candidates[j].image;
             CardImg.style.width = "60%";
-            CardImg.style.height = "40%";
+            CardImg.style.height = "30%";
             addCard.appendChild(CardImg);
             addCard.appendChild(document.createElement("hr"));
             var CardName = document.createElement("h1");
             CardName.innerHTML=data.candidates[j].Full_Name;
-            var CardMail = document.createElement("h2");
+            var CardMail = document.createElement("h3");
             CardMail.innerHTML=data.candidates[j].Email;
             var CardPhone = document.createElement("h3");
 
@@ -118,6 +120,7 @@ function loadJSON(file, callback){
             var ResImg = document.createElement("img");
             ResImg.src= edata.image;
             ResImg.style.width = "60%";
+            
             ResImg.style.margin = "10%";
             ResImg.style.borderRadius = "10%";
             ResImg.style.border = "1px solid red";
