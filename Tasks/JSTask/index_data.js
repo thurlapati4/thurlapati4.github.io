@@ -29,23 +29,31 @@ function loadJSON(file, callback){
         displ_ele.style.marginRight = "10%";
         displ_ele.style.display="grid";
         displ_ele.style.gridTemplateColumns="auto auto auto";
-        displ_ele.style.gridGap="8px";
+        displ_ele.style.gridGap="10px";
         for(j=0;j<i;j++)
         {
             var addCard = document.createElement("div");
             addCard.style.align = "center";
             addCard.style.height = "100%";
+            addCard.style.minHeight="300px";
             var CardImg = document.createElement("img");
+            var ImgCon = document.createElement("div");
+            ImgCon.style.overflow="hidden";
+            ImgCon.style.width = "60%";
+            ImgCon.style.height = "40%";
+            ImgCon.style.marginLeft = "20%";
+
             CardImg.src="media/"+data.candidates[j].image;
-            CardImg.style.width = "60%";
-            CardImg.style.height = "30%";
-            addCard.appendChild(CardImg);
+            
+            ImgCon.appendChild(CardImg);
+            
+            addCard.appendChild(ImgCon);
             addCard.appendChild(document.createElement("hr"));
-            var CardName = document.createElement("h1");
+            var CardName = document.createElement("h2");
             CardName.innerHTML=data.candidates[j].Full_Name;
-            var CardMail = document.createElement("h3");
+            var CardMail = document.createElement("h4");
             CardMail.innerHTML=data.candidates[j].Email;
-            var CardPhone = document.createElement("h3");
+            var CardPhone = document.createElement("h4");
 
             CardPhone.innerHTML=data.candidates[j].Phone_No;
             var CardRes = document.createElement("button");
@@ -117,6 +125,7 @@ function loadJSON(file, callback){
             document.body.style.backgroundColor="skyblue";
             var edata = JSON.parse(text);
             console.log(edata);
+        
             var ResImg = document.createElement("img");
             ResImg.src="media/"+edata.image;
             ResImg.style.width = "60%";
@@ -146,7 +155,21 @@ function loadJSON(file, callback){
                 var cell1=row.insertCell(-1);
                 var cell2=row.insertCell(-1);
                 cell1.innerHTML = edata.Prof_Skills[i].skill;
-                cell2.innerHTML = edata.Prof_Skills[i].level;
+                spnf = document.createElement("span");
+                //spnf.style.padding = "5%";
+                if(edata.Prof_Skills[i].level == "Professional")
+                {spnf.style.backgroundColor="Green";
+                 spnf.style.color = "Cornsilk";}
+                else if(edata.Prof_Skills[i].level=="Beginner")
+                {spnf.style.backgroundColor = "pink"}
+                else
+                {spnf.style.backgroundColor="orange";}
+                
+                spnf.style.borderRadius = "20%"; 
+                spnf.innerHTML = edata.Prof_Skills[i].level;
+                cell2.style.textAlign ="right";
+                cell2.appendChild(spnf);
+                
             }
             for(var i in edata.Person_Skills)
             {

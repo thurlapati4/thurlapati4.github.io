@@ -1,7 +1,7 @@
 {
   "image":"janardhan.jpg","Full_Name":"Medarametla Janardhan", "Email":"janardhan@gmail.com", "Phone_No":"9176564523",
    "Profession" : "Software Engineer",
-   "Prof_Skills": [{"skill":"HTML/CSS","level":"intermediate"},{"skill":"JavaScript","level":"Professional"},{"skill":"Jquery","level":"Beginner"},{"skill":"ReactJs","level":"Professional"}],
+   "Prof_Skills": [{"skill":"HTML/CSS","level":"Intermediate"},{"skill":"JavaScript","level":"Professional"},{"skill":"Jquery","level":"Beginner"},{"skill":"ReactJs","level":"Professional"}],
    "Person_Skills" : ["hard working","creative","self dependent","simplicity"],
    "career_obj" : "In Modern times, change has become constant and more dynamic. In this current scenario my objective is to constructively build my career giving more priority for skill rather than position. To become an valuable asset for employer is my present motto.",
    "projects" : ["Blogging site","Marketing site","eCommerce site","Content Delivery site"],
