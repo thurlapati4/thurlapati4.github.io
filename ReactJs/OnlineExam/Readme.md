@@ -1,17 +1,17 @@
 OnlineExam:
 ===========
 
-1.This project is mainly intended to develop a user interface that mimics the actual
-  online test environment conducted by many testing agencies in India.
+1. This project is mainly intended to develop a user interface that mimics the actual
+   online test environment conducted by many testing agencies in India.
 
-2.Here we have React as a medium of development with create-react-app as development tool.
+2. Here we have React as a medium of development with create-react-app as development tool.
 
 3. This website is static, completely runs on clients browser, does'nt require any server
    side arrangements. At the same time exam evaluation is also done on client computer, to display 
    on spot end result.
 4. As everything happens on client side care must be taken to encode and encrypt actual answer scripts
    before deployment to avoid malpractises.
-5.Time bound is not yet provided.
+5. Time bound is not yet provided.
 
 
 Program:
