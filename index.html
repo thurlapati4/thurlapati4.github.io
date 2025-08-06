@@ -1,50 +1,101 @@
 <html>
-    <head>
-        <title>
-            Introduction to ReactJs
-            </title>
-        </head>
-        <body style="text-align:center">
-            <p>This page is intended to practise basic HTML</p>
-            <dl>
-                <dt>HTML</dt><dd>Hyper Text Markup Language</dd>
-                <dt>CSS</dt><dd>Cascaded Style Sheets</dd>
-            </dl>
-            <img src="media/passp.jpg" height="150px" width="90px" alt="passport"></img>
-            <audio controls><source  src="media/neekannuppena.mp3" type="audio/mpeg"></audio>
-              
-             <video controls><source src="https://cdn.videvo.net/videvo_files/video/free/2012-07/small_watermarked/Countdown%20Timer_preview.webm" type="video/webm"></video>   
-                <h1>Iframe Map page</h1>
-                <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7710.838944544906!2d79.98212967448646!3d14.913705408414646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b7b8cd2db7dc3%3A0x3ecaa61b52214614!2sJanathapet%2C%20Kavali%2C%20Andhra%20Pradesh%20524201!5e0!3m2!1sen!2sin!4v1605698963274!5m2!1sen!2sin" width="650" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" title="my map"></iframe>      
-                <h1>Youtube video with iframe</h1>
-                <iframe width="853" height="480" src="https://www.youtube.com/embed/o1IaduQICO0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h1>HTML Form</h1>
-                <form method="POST">
-                    <table style="align-items:center">
-                    <tr><td><label >First Name :</label></td><td><input type="text" name="firstname"/></td></tr>
-                    <tr><td><label >Middle Name :</label></td><td><input type="text" name="middle"/></td></tr>
-                    <tr><td><label >Last Name :</label></td><td><input type="text" name="last"/></td></tr>
-                    <tr><td><label >Email :</label></td><td><input type="email" name="email"/></td></tr>
-                    <tr><td><label >Password :</label></td><td><input type="password" name="passwd"/></td></tr>
-                    <tr><td><label >Male</label></td><td><input type="radio" name="gender"/></td></tr>
-                    <tr><td><label >female</label></td><td><input type="radio" name="gender"/></td></tr>
-                    <tr><td><input type="reset" name="reset" value="Reset"/></td><td><input type="submit" name="button" value="Submit"/></td></tr>
-                    <tr><td><label>Upload photo: </label></td><td><input type="file" name="upload"/></td></tr>
-                </table>
-                    </form>
-                    <h1>Nav Bar</h1>
-                    <nav>
-                        <a href="">HTML</a>
-                        <a href="">CSS</a>
-                        <a href="">JavaScript</a>
-                        <a href="">BootStrap</a>
-                        </nav>
-                    <h1>Drop Down</h1>
-                    <select>
-                        <option>Telugu</option>
-                            <option>Hindi</option>
-                            <option>English</option>
-                            <option>Arabic</option>
-                        </select>
-            </body>
-    </html>
+<head>
+    <title>
+        Introduction to ReactJs
+    </title>
+</head>
+
+<body>
+    <style type="text/css">
+        div {
+            position: relative;
+            padding: 5px;
+            background-color: lemonchiffon;
+            border: 2px;
+            border-color: blueviolet;
+            color: blue;
+            border-radius: 4px;
+            width: 60%;
+            font-size: 120%;
+            right: 20%;
+            left: 20%;
+        }
+
+        h1 {
+            width: 30%;
+            right: 20%;
+            left: 35%;
+            position: relative;
+            text-align: center;
+            padding: 2px;
+            background-color: wheat;
+            color: red;
+        }
+
+        h2 {
+            position: relative;
+            left: 20%;
+        }
+
+            h2 > span {
+                padding: 2px;
+                background-color: wheat;
+                color: red;
+            }
+
+        .facephot {
+            border: 3px solid crimson;
+            position: absolute;
+            right: 5%;
+            top: 5%;
+            width: 10%;
+            height: 20%;
+        }
+
+        .tab1 {
+            position: absolute;
+            right: 3%;
+            top: 30%;
+            border-collapse: collapse;
+        }
+
+            .tab1 td {
+                padding: 2px;
+                text-align: center;
+                color: blue;
+                font-weight: bold;
+                background-color: lightgoldenrodyellow;
+                border: 1px solid brown;
+                font-family: Arial;
+            }
+    </style>
+    <img class="facephot" src="media/practise_passp.jpg" alt="Not found passport size formal photo">
+    <table style="border:1px solid brown; border-color:brown" class="tab1">
+        <tr><td colspan="3">Thurlapati sai krishna koushik</td></tr>
+        <tr><td>Subject</td><td colspan="2">Chemical Engineering</td></tr>
+        <tr><td>B.Tech</td><td>2016-2020</td><td>SVUCE Tirupati</td></tr>
+        <tr><td>M.Tech</td><td>2023-2025</td><td>IIT KGP</td></tr>
+    </table>
+    <h1><span>My Digital works</span></h1>
+    <div>Welcome to the page that displays info about my experience with computers and files I have generated as part of practise which have subjects that ranges from full stack with java, Python data to C, IOT and c++ graphics </div>
+    <h2><span>Introduction</span></h2>
+    <div>
+        I am Koushik from Kavali, AndhraPradesh. Completed B.Tech Chemical Engineering from SVUCE Tirupati. Been playing with computers pretty much since 10th standard. My journey starts with practising and learning C language. Used C to write some iterative procedures to solve simple ChemEngg Models like Reactor Recycle problems, Numerical integration etc. Then moved to Front end development, while learning Linux installation and usage.
+        Then I started learning full stack development with PHP initially, But later moved to Java JSP and Spring.Full Stack includes ReactJS,SQL with tools like MySql,Git,Apache as well. Not a master but had novice experience with MVC and Boot. Tried to learn Android development as well. Doesnt made any app at all. Worked as quality analyst which gave me WebDriver, Appium experience and working with Maven, Postman etc
+        Post work, worked fair amount of time learning IoT with basic arduino and sensors. Currently trying to learn Python and respective Data analysis packages, PowerBI, scikitlearn etc ping into Data analytics and Machine Learning stuff.
+    </div>
+    <h2><span>React JS Project</span></h2>
+    <div>
+        OnlineExam app is a small knockout version of basic user interface one can observe had they taken any CBT exam in any part of India. Three sections each for displaying questions, Question Pallette to track status of each question and serve as navigation panel, Result page that shows immediate result along with answers.
+        Question area is one React component which gets updated whenever there is change in question selection from pallette. Depending on whether question was answered or not, color of question icon changes. State management mainly includes store questions visited, question answered and if answered, the option selected. This state is later used to compare with other key and display result at the end
+    </div>
+    <h2><span>Java Practise</span></h2>
+    <div>To show case major back end development using Java JSP and Java Spring. Both REST api and MVC controller was used to serve a static website with html,css,js ,media files and also connects to a database to populate the html files.</div>
+    <h2><span>Python and data</span></h2>
+    <div>Starting from novice python practise scripts to Numpy, Pandas tasks and ML scripts for regression and classification. Data visualization like PowerBI dashboard is also uploaded here. </div>
+    <h2><span>C and C++ with graphics</span></h2>
+    <div>C programs for practising basic C language features like string formatting, memory management, FILE related exercises and IOT related Arduino code. C++ programs that make use of advanced graphics with OpenGL and multithread processing with CUDA.</div>
+    <h2><span>Chemical Engineering</span></h2>
+    <div> To implement iterative code for chemical engineering design like Heat Exchanger design, VLE caluculations like bubble point, Multicomponent extraction, Distillation column with bubble point method, Numerical solution of PDE with linear  discretization and calculation</div>
+</body>
+</html>
